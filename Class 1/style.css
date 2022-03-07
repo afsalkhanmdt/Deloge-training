@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+
+label{
+    border-bottom: solid black 2px;
+    padding-bottom: 10px;  
+}
+
+body{
+    /* background-image: url(./desktop_lite.jpg); */
+}
+
+
+img{
+    width: 500px;
+}
+
+.image-container, .link-container{
+    text-align: center;
+}
+
+p{
+    width: 800px;
+    margin: 15px auto;
+}
+
+.box{
+    display: flex;
+}
+
+.small-box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 20px;
+}
