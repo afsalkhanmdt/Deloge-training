@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(./bachground.png);
+    background-size: cover;
+}
+.container{
+    padding: 25px 15px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.home-button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.home-button img{
+    width: 40px;
+}
+
+.search-field{
+    width: 100%;
+}
+
+.search-field input{
+    width: 100%;
+    border: 1px solid #707070;
+    height: 50px;
+    border-radius: 25px;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+main{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px 0;
+    border-radius: 45px;
+}
+
+h1{
+    background-color: #F04F4F;
+    padding: 8px 30px;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    border-radius: 35px;
+}
+
+marquee{
+    background-color: #F3F5C5;
+    line-height: 25px;
+    margin-top: 15px;
+    color: #FF0000;
+}
+
+.programs-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding: 30px;
+}
+
+.program-image img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.program-header{
+    background-color: #3D4F68;
+    color: white;
+    padding: 15px;
+    border-radius: 30px 70px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.program-card{
+    background-color: #EECCCC;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.program-details-section{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.program-details-section p{
+    margin-bottom: 15px;
+}
+
+.program-details-section button{
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+
+footer{
+    background-color: #3D4F68;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.link-text{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
